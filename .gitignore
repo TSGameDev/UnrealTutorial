@@ -72,5 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+ObstacleAssultTutorial/Config/
+ObstacleAssultTutorial/Content/
 Content/StarterContent/
 Content/IndustryPropsPack6/
+WarehouseWreck/Content/IndustryPropsPack6/
+WarehouseWreck/Content/StarterContent/
+WarehouseWreck/Intermediate/
+WarehouseWreck/Saved/
