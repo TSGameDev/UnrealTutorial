@@ -23,4 +23,18 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+private:
+	void MovePlatform(float DeltaTime);
+	void ReversePlatform(FVector CurrentPos);
+	void RotatePlatform(float DeltaTime);
+
+	//Non-blueprint accessable variables
+	FVector StartingLocation;
+
+	//blueprint or inspector accessable variables
+	UPROPERTY(EditAnywhere, Category="Moving Platform")
+	FVector MovementIncriment;
+
+	UPROPERTY(EditAnywhere, Category = "Moving Platform")
+	float MoveMaxDistance;
 };
